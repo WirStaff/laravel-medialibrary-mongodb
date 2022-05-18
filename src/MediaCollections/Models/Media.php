@@ -45,6 +45,10 @@ class Media extends Model implements Responsable, Htmlable
 
     protected $collection = 'media';
 
+    protected $primaryKey = 'uuid';
+
+    protected $keyType = 'string';
+
     public const TYPE_OTHER = 'other';
 
     protected $guarded = [];
