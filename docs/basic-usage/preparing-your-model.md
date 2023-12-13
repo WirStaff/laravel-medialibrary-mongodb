@@ -18,11 +18,14 @@ class YourModel extends Model implements HasMedia
 }
 ```
 
-The `Collection` component will show a preview thumnail for items in the collection it is showing.
+The `Collection` component will show a preview thumbnail for items in the collection it is showing.
 
 To generate that thumbnail, you must add a conversion like this one to your model.
 
 ```php
+use Spatie\Image\Manipulations;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+
 public function registerMediaConversions(Media $media = null): void
 {
     $this
