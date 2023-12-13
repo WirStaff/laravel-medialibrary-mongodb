@@ -2,8 +2,8 @@
 
 namespace Spatie\MediaLibrary\MediaCollections;
 
-use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Support\Collection;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Spatie\MediaLibrary\MediaCollections\Exceptions\RequestDoesNotHaveFile;
 use Spatie\MediaLibrary\Support\RemoteFile;
 use Spatie\MediaLibraryPro\Dto\PendingMediaItem;
