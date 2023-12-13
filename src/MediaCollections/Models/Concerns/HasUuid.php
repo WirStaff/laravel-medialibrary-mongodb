@@ -3,7 +3,7 @@
 namespace Spatie\MediaLibrary\MediaCollections\Models\Concerns;
 
 use Illuminate\Support\Str;
-use Jenssegers\Mongodb\Eloquent\Model;
+use MongoDB\Laravel\Eloquent\Model;
 
 trait HasUuid
 {

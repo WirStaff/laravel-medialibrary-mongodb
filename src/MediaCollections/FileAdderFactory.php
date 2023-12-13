@@ -3,7 +3,7 @@
 namespace Spatie\MediaLibrary\MediaCollections;
 
 use Illuminate\Support\Collection;
-use Jenssegers\Mongodb\Eloquent\Model;
+use MongoDB\Laravel\Eloquent\Model;
 use Spatie\MediaLibrary\MediaCollections\Exceptions\RequestDoesNotHaveFile;
 use Spatie\MediaLibrary\Support\RemoteFile;
 use Spatie\MediaLibraryPro\Dto\PendingMediaItem;

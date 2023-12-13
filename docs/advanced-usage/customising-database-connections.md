@@ -33,7 +33,7 @@ The `Spatie\MediaLibrary\InteractsWithMedia` trait defines a `MorphMany` relatio
 namespace App\Models;
 
 use Spatie\MediaLibrary\HasMedia;
-use Jenssegers\Mongodb\Eloquent\Model;
+use MongoDB\Laravel\Eloquent\Model;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
 class User extends Model implements HasMedia {
