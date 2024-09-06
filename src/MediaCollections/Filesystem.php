@@ -1,8 +1,8 @@
 <?php
 
-ini_set("max_execution_time", 500);
-
 namespace Spatie\MediaLibrary\MediaCollections;
+
+ini_set("max_execution_time", 500);
 
 use Illuminate\Contracts\Filesystem\Factory;
 use Illuminate\Support\Facades\Storage;
