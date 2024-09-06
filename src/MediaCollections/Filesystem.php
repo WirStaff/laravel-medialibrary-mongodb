@@ -30,7 +30,7 @@ class Filesystem
     {
         try {
             $this->copyToMediaLibrary($file, $media, null, $targetFileName);
-        } catch(DiskCannotBeAccessed $exception) {
+        } catch (DiskCannotBeAccessed $exception) {
             return false;
         }
 
@@ -45,7 +45,7 @@ class Filesystem
     {
         try {
             $this->copyToMediaLibraryFromRemote($file, $media, null, $targetFileName);
-        } catch(DiskCannotBeAccessed $exception) {
+        } catch (DiskCannotBeAccessed $exception) {
             return false;
         }
 
